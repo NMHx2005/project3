@@ -11,9 +11,9 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body>
-    <div class="bg-[#304F47]">
-        <div class="pl-[100px] pr-[100px]">
+<body class="">
+    <div class="bg-[#304F47] md:block hidden">
+        <div class="sm:pl-[100px] sm:pr-[100px] px-[16px]">
             <div class="flex justify-between pt-[15px] pb-[15px]">
                 <div class="flex">
                     <div class="flex items-center mr-[28px] gap-[6px]">
@@ -36,13 +36,13 @@
     </div>
 
     <div>
-        <div class="pl-[100px] pr-[100px]">
+        <div class="sm:pl-[100px] sm:pr-[100px] px-[16px]">
             <div class="flex justify-between items-center">
                 <div class="flex gap-[50px] items-center py-[10px]">
                     <div class="">
                         <img alt="" src="./assets/images/logo_tailiwind.png">
                     </div>
-                    <ul class="flex gap-[15px]">
+                    <ul class="gap-[15px] hidden lg:flex">
                         <li class="text-[#000000B2] border-b border-b-[3px] border-[#304F47] text-[500] text-[20px]">
                             <a href="#">Home</a>
                         </li>
@@ -76,8 +76,8 @@
 
             </div>
             <img alt="" class="w-[100%] bg-cover" src="./assets/images/bg_section.png" />
-            <div class="absolute top-[200px] left-[140px] z-[4] w-[42%]">
-                <div class="text-[white] text-[700] text-[62px]">
+            <div class="absolute sm:top-[200px] sm:left-[140px] top-[20px] left-[20px] z-[4] sm:w-[42%] w-[auto]">
+                <div class="text-[white] text-[700] sm:text-[62px] text-[24px]">
                     Experience the beauty of Rwanda with us
                 </div>
                 <div class="text-[white] text-[400] text-[20px]">
@@ -85,7 +85,7 @@
                 </div>
             </div>
             <div
-                class="absolute z-[5] bottom-[-40px] left-[10%] py-[16px] bg-[#304F47] w-[80%] rounded-[8px] px-[32px]">
+                class="absolute z-[5] bottom-[-40px] left-[10%] py-[16px] bg-[#304F47] w-[80%] rounded-[8px] px-[32px] hidden lg:block">
                 <div class="flex justify-between items-center">
                     <div class="relative">
                         <input
@@ -121,14 +121,14 @@
         </div>
     </div>
 
-    <div class="mt-[125px] mb-[90px] text-center">
+    <div class="sm:mt-[125px] mt-[25px] mb-[25px] sm:mb-[90px] text-center ">
         <div class="text-[#C7923E] text-[700] text-[32px]">Choose your Package</div>
-        <div class="text-[#000000] text-[700] text-[48px]">Select your Best Package for your Travel</div>
+        <div class="text-[#000000] text-[700] sm:text-[48px] text-[16px]">Select your Best Package for your Travel</div>
     </div>
     <div>
-        <div class="pl-[100px] pr-[100px]">
+        <div class="sm:pl-[100px] sm:pr-[100px] px-[16px]">
             <div class="">
-                <div class="grid grid-cols-3 gap-[17px]">
+                <div class="grid sm:grid-cols-3 grid-cols-1 gap-[17px]">
                     <div class="border border-[1px] border-[#E1E1E1] rounded-[8px]">
                         <img alt="" src="./assets/images/Image Placeholder.png" class="w-[100%] bg-cover" />
                         <div class="px-[14px] py-[32px]">
@@ -223,33 +223,33 @@
             </div>
         </div>
     </div>
-    <div class="mt-[125px] mb-[90px] text-center">
+    <div class="sm:mt-[125px] mt-[25px] mb-[25px] sm:mb-[90px] text-center">
         <div class="text-[#C7923E] text-[700] text-[32px]">Popular Destinations</div>
-        <div class="text-[#000000] text-[700] text-[48px]">Select Our Best Popular Destinations</div>
+        <div class="text-[#000000] text-[700] sm:text-[48px] text-[16px]">Select Our Best Popular Destinations</div>
     </div>
     <div>
-        <div class="pl-[100px] pr-[100px]">
+        <div class="sm:pl-[100px] sm:pr-[100px] px-[16px]">
             <div class="">
-                <div class="grid grid-cols-4 gap-[36px]">
+                <div class="grid sm:grid-cols-4 grid-cols-1 gap-[36px]">
                     <div class="">
                         <img src="./assets/images/Image Placeholder (1).png" class="w-[100%] bg-cover" />
                         <div class="mt-[40px] text-[#000000] text-[700] text-[39px] mb-[16px]">Kigali</div>
                         <div class="text-[#9A9AB0] text-[400] text-[16px]">Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Volutpat elit sed pretium, egestas sed sit.</div>
                     </div>
-                    <div class="">
+                    <div class="hidden sm:block">
                         <img src="./assets/images/Image Placeholder (1).png" class="w-[100%] bg-cover" />
                         <div class="mt-[40px] text-[#000000] text-[700] text-[39px] mb-[16px]">Kigali</div>
                         <div class="text-[#9A9AB0] text-[400] text-[16px]">Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Volutpat elit sed pretium, egestas sed sit.</div>
                     </div>
-                    <div class="">
+                    <div class="hidden sm:block">
                         <img src="./assets/images/Image Placeholder (1).png" class="w-[100%] bg-cover" />
                         <div class="mt-[40px] text-[#000000] text-[700] text-[39px] mb-[16px]">Kigali</div>
                         <div class="text-[#9A9AB0] text-[400] text-[16px]">Lorem ipsum dolor sit amet, consectetur
                             adipiscing elit. Volutpat elit sed pretium, egestas sed sit.</div>
                     </div>
-                    <div class="">
+                    <div class="hidden sm:block">
                         <img src="./assets/images/Image Placeholder (1).png" class="w-[100%] bg-cover" />
                         <div class="mt-[40px] text-[#000000] text-[700] text-[39px] mb-[16px]">Kigali</div>
                         <div class="text-[#9A9AB0] text-[400] text-[16px]">Lorem ipsum dolor sit amet, consectetur
@@ -259,14 +259,14 @@
             </div>
         </div>
     </div>
-    <div class="mt-[125px] mb-[90px] text-center">
+    <div class="sm:mt-[125px] mt-[25px] mb-[25px] sm:mb-[90px] text-center">
         <div class="text-[#C7923E] text-[700] text-[32px]">Why us?</div>
-        <div class="text-[#000000] text-[700] text-[48px]">Why Travel with Africa wizzy Safari</div>
+        <div class="text-[#000000] text-[700] sm:text-[48px] text-[16px]">Why Travel with Africa wizzy Safari</div>
     </div>
     <div>
-        <div class="pl-[110px] pr-[110px]">
+        <div class="sm:pl-[100px] sm:pr-[100px] px-[16px]">
             <div class="">
-                <div class="grid grid-cols-4 gap-[20px]">
+                <div class="grid sm:grid-cols-4 grid-cols-2 gap-[20px]">
                     <div class="bg-[#304F47] rounded-[30px] p-[25px] text-center">
                         <div class="flex justify-center mb-[17px]">
                             <img src="./assets/images/CarOutlined.png" />
@@ -295,14 +295,14 @@
             </div>
         </div>
     </div>
-    <div class="mt-[125px] mb-[90px] text-center">
+    <div class="sm:mt-[125px] mt-[25px] mb-[25px] sm:mb-[90px] text-center">
         <div class="text-[#C7923E] text-[700] text-[32px]">Our Traveller Say</div>
-        <div class="text-[#000000] text-[700] text-[48px]">What our clients say about us</div>
+        <div class="text-[#000000] text-[700] sm:text-[48px] text-[16px]">What our clients say about us</div>
     </div>
-    <div class="mb-[200px]">
-        <div class="pl-[110px] pr-[110px]">
+    <div class="sm:mb-[200px] mb-[50px]">
+        <div class="sm:pl-[100px] sm:pr-[100px] px-[16px]">
             <div class="">
-                <div class="grid grid-cols-3 gap-[50px]">
+                <div class="grid sm:grid-cols-3 grid-cols-1 gap-[50px]">
                     <div class="pt-[30px] px-[25px] pb-[70px]" style="box-shadow: 0px 4px 4px 0px #00000040;">
                         <div class="flex justify-center">
                             <img src="./assets/images/Ellipse 135.png" class="rounded-[50%] p-[2px]"
@@ -341,9 +341,9 @@
         </div>
     </div>
     <footer class="bg-[#304F47]">
-        <div class="pl-[110px] pr-[110px] py-[30px]">
+        <div class="sm:pl-[100px] sm:pr-[100px] px-[16px] py-[30px]">
             <div class="flex justify-bettwen gap-[50px]">
-                <div class="w-[50%]">
+                <div class="sm:w-[50%] w-[100%]">
                     <div class="text-[700] text-[39px] mb-[28px] text-white">If you have any question, Let us help you!
                     </div>
                     <div class="text-[400] text-[20px] mb-[28px] text-white">If you have any questions or would like to
@@ -368,7 +368,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="w-[50%]">
+                <div class="w-[50%] sm:block hidden ">
                     <div class="flex justify-bettwen items-center mb-[24px]">
                         <div>
                             <svg width="86" height="89" viewBox="0 0 86 89" fill="none"
